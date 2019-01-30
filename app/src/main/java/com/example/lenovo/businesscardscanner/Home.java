@@ -84,7 +84,7 @@ public class Home extends AppCompatActivity {
                 public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
 
                     Intent intent = new Intent(getApplicationContext(), BScanner.class);
-                    intent.putExtra("x",position+"");
+                    intent.putExtra("x",position);
 
                     startActivity(intent);
 
